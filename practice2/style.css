@@ -1,0 +1,253 @@
+body{
+    margin: 0%;
+   padding: 0%; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&family=Rubik:wght@700&display=swap');
+
+.header-section{
+    margin: 0;
+    padding: 30px 50px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(218, 245, 238);
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-size: 30px;
+    background-color: rgb(252, 251, 251);
+    color:black;
+    border-radius: 10%;
+  }
+.nev-tag ul{
+display: flex;
+}
+
+.nev-tag ul li{
+list-style-type: none;
+margin: 0px 10px;
+padding: 5px 10px;
+}
+.nev-tag ul li:hover{
+    color: blanchedalmond;
+    background-color: blueviolet;
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+.hole{
+    display: flex;
+    width: 100%;
+    background-color: rgb(241, 241, 223);
+    margin: auto;
+}
+.part{
+    width: 30%;
+   margin: auto;
+}
+.images {
+	width: 24%;
+	margin: auto;
+}
+.images img{
+    width: 100%;
+}
+.heading{
+    font-family:sans-serif;
+}
+.content{
+    font-family: Josefin sans, sans-serif;
+}
+.content2{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 20px 0 15px 0;
+    line-height: 1.5em;
+    color: gray;
+}
+.discover{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    line-height: 42px;
+    padding-left:30px;
+    border:none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.hole2{
+        display: flex;
+        margin: auto;
+        padding-top:50px ;
+}
+.part3{
+    margin-left: 130px;
+    width: 23%;
+}
+.part4{
+    width: 40%;
+margin: auto;
+    
+}
+.images-part{
+    width: 100%;
+}
+.Service{
+text-align: center;  
+margin-top: 87px;  
+}
+.hole3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    contain: 5opx;
+    align-items: center;
+    margin-top: 15opx;
+}
+.part-1{
+    margin-left: 0px;
+    margin-right: 5opx;
+    text-align: center;
+}
+.icon{
+   color: blue;
+    font-size: 35px;
+
+}
+.icon:hover{
+    background-color: darkorchid;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.heading2{
+
+}
+.hole4{
+    background-color: rgba(4,4,36,0,96);
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.footer-part{
+    width:33%;
+    margin-top: 150px;
+    margin-left: 30px;
+} 
+.footer-part2{
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.footer-part3{
+    width: 28%;
+    margin-top: 150px;
+}
+input{
+    padding: 10px;
+    width: 350px;
+    font-size: 20px;
+    border: 1px solidrgb(7, 7, 7)e;
+}
+
+
+/* mobile responsive start here */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #b5f0ed;
+        max-width: 100%;
+    }
+    .header-main{
+        display: inline-block;
+        justify-content: space-between;
+        font-family: sans-serif;
+        background-color: white;
+        width: 100%;
+    }
+    .nev-tag ul{
+        display: inline-block;
+    }
+.name{
+    background-color: #acf8f4;
+    color: black;
+    border-radius: 0%;
+
+}
+.hole{
+    display: inline-block;
+    
+    background-color: rgb(193, 250, 245);
+    
+}
+.part {
+	width: 73%;
+	margin: auto;
+    text-align: center;
+}
+
+   .images {
+	height: 5px;
+	width: 77%;
+	margin: auto;
+}
+
+
+
+.content2{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0px 0 0px 0;
+    line-height: 1.5em;
+    color: gray;
+}
+.discover{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    line-height: 40px;
+    padding-left:10px;
+    border:none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+   
+}
+.hole2{
+    display: inline-block;
+  margin: auto;
+}
+
+.part4 {
+	width: 87%;
+	margin: auto;
+	text-align: center;
+}
+.part3 {
+	margin: auto;
+	width: 57%;
+}
+.images-part{
+width:100%;
+}
+.hole3 {
+	display: block;
+	margin: auto;
+	width: 83%;
+	text-align: center;
+}
+.service{
+    text-align: center;  
+      
+    }
+}
+
+
+/* end */
+
+
+
+
+
