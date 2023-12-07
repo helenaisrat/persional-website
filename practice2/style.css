@@ -25,18 +25,22 @@ body{
   }
 .nev-tag ul{
 display: flex;
+text-decoration: none;
 }
 
 .nev-tag ul li{
 list-style-type: none;
 margin: 0px 10px;
-padding: 5px 10px;
+padding: 7px 12px;
+font-size: 20px;
+
 }
 .nev-tag ul li:hover{
     color: blanchedalmond;
     background-color: blueviolet;
     padding: 3px 5px;
     border-radius: 15px;
+   
 }
 .hole{
     display: flex;
@@ -112,7 +116,13 @@ margin-top: 87px;
     margin-left: 0px;
     margin-right: 5opx;
     text-align: center;
-}
+} 
+/* .heading2{
+
+} 
+.dis{
+
+} */
 .icon{
    color: blue;
     font-size: 35px;
@@ -124,36 +134,214 @@ margin-top: 87px;
     border-radius: 50%;
     color: white;
 }
-.heading2{
-
+.heading2 :hover{
+color: #62bdfc;
 }
 .hole4{
-    background-color: rgba(4,4,36,0,96);
+    background-color: rgb(39, 7, 7);
     display: flex;
     width: 100%;
-    height: 60vh;
+    color: white;
+    padding: 20px 0px;
+    
 }
+.section {
+	background-color: #5997c4;
+	width: 100%;
+	padding: 104px 0px;
+	display: flex;
+    text-align: center;
+}
+.containar{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 25%;
+}
+.rimut{
+    font-size: 40px;
+    margin: 0px;
+}
+.section-2{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0px;
+}
+/* service part */
+.Service-head{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 0px;
+}
+.this-is{
+    text-align: center;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    margin: auto;
+    gap: 0px,10px;
+    padding: 37px;
+    margin-top: 10px;
+}
+.grid-item2{
+    max-width: 180%;
+    text-align: center;
+    transition: 1s;
+}
+.grid-item2:hover {
+    max-width: 180%;
+    text-align: center;
+    background-color: burlywood;
+    box-shadow: 0px 2px 5px rgb(58, 57, 57);
+    transform: scale(1.02);
+    box-sizing: border-box;
+    padding: 10px;
+    background: linear-gradient(0deg,#8490ff,0%,#62bdfc);
+   
+}
+/* .grid-item2 :hover{
+   
+} */
+
+.grid-item2 h1{
+    border: 30px solid rgba(132,144,255,0.1);
+    background: rgba(132,144,255,0.1);
+    border-radius: 50%;
+    width: 5%;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.grid-item2 h2{
+    color: black;
+}
+.grid-item2 p{
+    color: #454343;
+}
+.grid-item2 :hover h1{
+    color: white;
+    background-color: rgb( 132 144 255 /22%);
+    border: 30px solid rgb(247 249 251 /39%);
+}
+.grid-item2 :hover h2{
+    color: white;
+}
+.grid-item2 :hover p{
+    color: white;
+}
+.grid-item2 :hover .plan li a{
+    color: white;
+}
+.plan{
+    margin: 0px;
+    padding: 0px;
+}
+.plan li {
+    list-style: none;
+    border-top: 1px solid #eee;
+    padding: 15px 0px;
+}
+.plan li a{
+    text-decoration: none;
+    color: rgb(93,96,99);
+    font-size: 18px;
+}
+.btn{
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+}
+/* .grid-item2 :hover.btn{
+    display: none;
+} */
+.btn2{
+    background:white ;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 57px;
+    display: none;
+}
+/* .grid-item2 :hover.btn2{
+    display: block;
+} */
+/* .footer-part */
+.about{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.paragraph{
+    color: gray;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+.icon2{
+    color: white;
+}
+
 .footer-part{
-    width:33%;
-    margin-top: 150px;
-    margin-left: 30px;
+    width:50%;
+   
 } 
 .footer-part2{
-    width: 40%;
-    margin-top: 150px;
-    margin-left: 20px;
+    width: 48%;
+    margin-left: 40px;
 }
 .footer-part3{
-    width: 28%;
-    margin-top: 150px;
+    width: 48%;
+    color: white;
 }
 input{
-    padding: 10px;
-    width: 350px;
+    padding: 6px;
+    width: 296px;
     font-size: 20px;
     border: 1px solidrgb(7, 7, 7)e;
 }
-
+.input:focus{
+    outline: none;
+}
+/* .social{
+    font-size: 20px;
+    padding: 18px 15px 18px 10px;
+    color: white;
+} */
+.right {
+	width: 60px;
+	background-color: #62bdfc;
+	border: none;
+	margin-left: -4px;
+	padding: 15px 0px 9px 0px;
+}
+.drop-part{
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    font-size: 15px ;
+    top: 40px;
+    right: 7px;
+    padding: 30px;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 1px 2px rgba(41,40,40,0,40);
+    display: none;
+}
+.drop-down{
+    position: relative;
+    padding: 10px;
+}
+.drop-down:hover .drop-part{
+    display: block;
+}
+.blog{
+    font-size: 10px;
+    padding: 5px;
+}
 
 /* mobile responsive start here */
 @media only screen and (max-width: 600px) {
